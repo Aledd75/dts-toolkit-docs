@@ -1,0 +1,49 @@
+site_name: DTS Toolkit Docs
+site_url: https://aledd75.github.io/dts-toolkit/
+site_author: Dadalt Tech Solutions
+site_description: Documentação oficial do DTS Toolkit - Ferramenta de manutenção e otimização Windows.
+
+repo_name: Aledd75/dts-toolkit
+repo_url: https://github.com/Aledd75/dts-toolkit
+
+theme:
+  name: material
+  language: pt-BR
+  palette:
+    # Modo Escuro (Padrão, igual ao seu software)
+    - scheme: slate
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Mudar para modo claro
+    # Modo Claro (Opcional)
+    - scheme: default
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Mudar para modo escuro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+
+nav:
+  - Início: index.md
+  - Começando: getting-started.md
+  - Módulos do Sistema:
+    - Sistema & Reparo: modules/system-repair.md
+    - Gestão & Diagnóstico: modules/management.md
+    - Segurança & Rede: modules/security-network.md
+  - Solução de Problemas: troubleshooting.md
