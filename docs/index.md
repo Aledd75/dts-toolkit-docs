@@ -1,4 +1,4 @@
-# Bem-vindo ao DTS Toolkit
+# Bem-vindo ao DT Toolkit
 
 O **DTS Toolkit (Dashboard Edition)** é uma solução "Tudo-em-Um" portátil desenvolvida pela **Dadalt Tech Solutions** para manutenção, otimização e diagnóstico avançado de computadores Windows.
 
