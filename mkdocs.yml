@@ -1,9 +1,9 @@
 site_name: Dadalt Tech Toolkit
 site_description: Documentação oficial do Dadalt Tech Toolkit para manutenção, diagnóstico, reparo e produtividade em Windows.
 site_author: Dadalt Tech
-site_url: https://aledd75.github.io/dts-toolkit/
-repo_name: Aledd75/dts-toolkit
-repo_url: https://github.com/Aledd75/dts-toolkit
+site_url: https://aledd75.github.io/dt-toolkit-docs/
+repo_name: Aledd75/dt-toolkit-docs
+repo_url: https://github.com/Aledd75/dt-toolkit-docs
 
 theme:
   name: material
