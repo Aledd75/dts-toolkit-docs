@@ -1,38 +1,43 @@
-# Gestão & Diagnósticos
+# Gestão e Diagnóstico
 
-Ferramentas focadas na governança do sistema, instalação em massa de aplicativos e testes de hardware em laboratório.
+Esta área concentra tarefas de organização do ambiente, manutenção de softwares e apoio à triagem de problemas comuns em estação de trabalho.
 
-## DTSoftwares & DTBloatwares (Gestão de Pacotes)
-* **Instalador em Massa:** Interface limpa que consome a API do `Winget` para instalar navegadores, ferramentas e runtimes essenciais com um clique, de forma totalmente silenciosa.
-* **Remoção de Bloatwares:** Varre e remove nativos indesejados do Windows (Cortana, Xbox, Hub de Feedback, etc.) localmente do disco rígido para liberar espaço e processamento.
+## Gestão de softwares
 
-## DTDeepUninstaller (Desinstalação Profunda)
-Módulo cirúrgico que substitui o painel nativo do Windows.
-* **Proteção Gamers:** Possui uma "Whitelist" embutida que **trava** a desinstalação caso o usuário tente remover Steam, Epic Games, Riot ou Battle.net, evitando a remoção de terabytes de jogos.
-* **Caça a Registros:** Após desinstalar de forma limpa, atua limpando as pontas soltas na árvore do Windows, somente após confirmada a remoção do aplicativos.
+O Toolkit ajuda o técnico a localizar, instalar e remover aplicações com mais rapidez.
 
-## DTBackupFiles & DTRestoreFiles
-A interface gráfica de espelhamento baseada no poderoso `RoboCopy`.
-* Copia diretórios vitais do usuário para a pasta `/Toolkit_Backup/` sempre na mesma pasta onde o DT Toolkit estiver sendo executado (Geralmente, Pen Drive ou SSD Portátil).
-* **Efeito Diferencial:** Só copia arquivos que foram modificados ou adicionados desde o último backup, economizando horas de trabalho.
+- Reduz a troca entre janelas e ferramentas separadas.
+- Facilita a instalação de pacotes úteis para o atendimento.
+- Ajuda a manter o ambiente mais limpo e padronizado.
 
-## DTPasswordManager (SAM Control)
-Ferramenta para redefinir o acesso à máquina sem formatação:
-* Redefine contas locais, respeitando a permanência do PIN (Windows Hello).
-* **Gatilho Root:** Permite Habilitar/Desabilitar o usuário Oculto "Administrador" (SID-500) em caso de quebra total do sistema.
+## Deep Uninstaller
 
-## DTConsistencyChecker (Auditoria de Sistema)
-O verdadeiro "Blue Team". Um script de inspeção profunda que gera relatórios HTML:
-* **Hijacking:** Verifica valores ilícitos em `AppInit_DLLs` e `Userinit`.
-* **IFEO Blocks:** Descobre se o Gerenciador de Tarefas ou o Regedit foram "sequestrados".
-* **Segurança:** Analisa falhas no UAC e **Exclusões Maliciosas** injetadas no Windows Defender.
+O módulo de desinstalação avançada complementa a remoção padrão do Windows quando é preciso ir além do painel convencional.
 
-## DTHardwareDiagnostics & HwMonitor (Raio-X Físico)
-Submete o equipamento a testes de estresse:
-* **CPU Stress:** Força o `Win32_Processor` e varre o Log de Eventos do Windows (WHEA) caçando falhas de energia/cache.
-* **RAM Test:** Testa blocos virtuais procurando vazamentos e "Bad Sectors" na memória.
-* **Discos (SMART):** Alerta sobre setores realocados ou temperatura crítica no SSD/HDD.
-* **Monitor Térmico:** Baixa e executa a versão portátil mais recente do *HWMonitor* para leitura precisa de temperaturas em tempo real.
+- Executa a desinstalação principal do aplicativo.
+- Procura sobras comuns em pastas e registros.
+- Ajuda a reduzir resíduos que atrapalham o próximo passo do atendimento.
 
-## DTServiceOrder (Ordem de Serviço Inteligente)
-Gera um relatório profissional em PDF contendo dados da máquina e da licença. O sistema possui inteligência para bloquear a geração do PDF caso nenhuma ferramenta de manutenção tenha sido rodada na sessão atual, evitando relatórios vazios.
+## Backup e restauração
+
+As rotinas de cópia e restauração foram pensadas para preservar dados do usuário antes de mudanças maiores.
+
+- Úteis antes de reparos mais invasivos.
+- Práticas para migração de arquivos importantes.
+- Bons apoios para atendimento em bancada e em campo.
+
+## Diagnóstico prático
+
+Quando o objetivo é entender rapidamente o estado do ambiente, essa área ajuda a organizar o trabalho:
+
+- o que está instalado;
+- o que pode ser removido com segurança;
+- o que precisa ser salvo antes de continuar.
+
+![Gestão e diagnóstico](GestaoDiag.png)
+
+A captura destaca o agrupamento de funções para gerenciamento de softwares, remoção de resíduos, apoio a auditoria e rotinas de backup.
+
+## Resultado esperado
+
+Menos tempo procurando ferramentas, mais tempo executando a correção correta para o caso real.

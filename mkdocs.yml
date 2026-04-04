@@ -1,19 +1,53 @@
 site_name: Dadalt Tech Toolkit
-site_description: Documentação Oficial e Manual de Operação do Sistema.
+site_description: Documentação oficial do Dadalt Tech Toolkit para manutenção, diagnóstico, reparo e produtividade em Windows.
 site_author: Dadalt Tech
+site_url: https://aledd75.github.io/dts-toolkit/
+repo_name: Aledd75/dts-toolkit
+repo_url: https://github.com/Aledd75/dts-toolkit
 
 theme:
   name: material
   language: pt-BR
+  palette:
+    - scheme: slate
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Mudar para modo claro
+    - scheme: default
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Mudar para modo escuro
   features:
     - navigation.tabs
     - navigation.sections
-    - navigation.top
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
 
 nav:
   - Início: index.md
-  - Primeiros Passos: getting-started.md
-  - Gestão e Diagnóstico: management.md
-  - Segurança e Rede: security-network.md
-  - Sistema e Reparo: system-repair.md
-  - Solução de Problemas: troubleshooting.md
+  - Visão Geral:
+      - Sistema: about-toolkit.md
+      - Primeiros Passos: getting-started.md
+      - Licenciamento: licensing.md
+  - Módulos:
+      - Gestão e Diagnóstico: management.md
+      - Segurança e Rede: security-network.md
+      - Sistema e Reparo: system-repair.md
+  - Ajuda:
+      - Perguntas Frequentes: faq.md
+      - Solução de Problemas: troubleshooting.md
+  - Privacidade: privacy.md
