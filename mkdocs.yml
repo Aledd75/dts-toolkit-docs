@@ -1,0 +1,19 @@
+site_name: Dadalt Tech Toolkit
+site_description: Documentação Oficial e Manual de Operação do Sistema.
+site_author: Dadalt Tech
+
+theme:
+  name: material
+  language: pt-BR
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+
+nav:
+  - Início: index.md
+  - Primeiros Passos: getting-started.md
+  - Gestão e Diagnóstico: management.md
+  - Segurança e Rede: security-network.md
+  - Sistema e Reparo: system-repair.md
+  - Solução de Problemas: troubleshooting.md
