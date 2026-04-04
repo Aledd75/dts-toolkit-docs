@@ -6,24 +6,26 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Documentação Oficial e Manual de Operação do Sistema.">
+        <meta name="description" content="Documentação oficial do Dadalt Tech Toolkit para manutenção, diagnóstico, reparo e produtividade em Windows.">
       
       
         <meta name="author" content="Dadalt Tech">
       
       
+        <link rel="canonical" href="https://aledd75.github.io/dt-toolkit-docs/getting-started/">
       
-        <link rel="prev" href="..">
+      
+        <link rel="prev" href="../about-toolkit/">
       
       
-        <link rel="next" href="../management/">
+        <link rel="next" href="../licensing/">
       
       
         
       
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.4">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
@@ -32,6 +34,9 @@
     
     
       <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -59,7 +64,14 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="cyan">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -68,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#guia-de-inicio-rapido" class="md-skip">
+        <a href="#primeiros-passos" class="md-skip">
           Pular para conteúdo
         </a>
       
@@ -109,6 +121,32 @@
       </div>
     </div>
     
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="cyan"  aria-label="Mudar para modo claro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Mudar para modo claro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="cyan"  aria-label="Mudar para modo escuro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Mudar para modo escuro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
     
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
@@ -139,6 +177,8 @@
         </button>
       </nav>
       
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
@@ -154,6 +194,18 @@
 </div>
       
     
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Aledd75/dt-toolkit-docs" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Aledd75/dt-toolkit-docs
+  </div>
+</a>
+      </div>
     
   </nav>
   
@@ -195,17 +247,58 @@
     
   
   
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="./" class="md-tabs__link">
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../about-toolkit/" class="md-tabs__link">
+          
+  
+  
+  Visão Geral
+
+        </a>
+      </li>
+    
+  
+
+      
         
   
   
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../management/" class="md-tabs__link">
+          
+  
+  
+  Módulos
+
+        </a>
+      </li>
     
   
-  Primeiros Passos
 
-      </a>
-    </li>
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../faq/" class="md-tabs__link">
+          
+  
+  
+  Ajuda
+
+        </a>
+      </li>
+    
   
 
       
@@ -215,70 +308,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../management/" class="md-tabs__link">
+      <a href="../privacy/" class="md-tabs__link">
         
   
   
     
   
-  Gestão e Diagnóstico
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../security-network/" class="md-tabs__link">
-        
-  
-  
-    
-  
-  Segurança e Rede
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../system-repair/" class="md-tabs__link">
-        
-  
-  
-    
-  
-  Sistema e Reparo
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../troubleshooting/" class="md-tabs__link">
-        
-  
-  
-    
-  
-  Solução de Problemas
+  Privacidade
 
       </a>
     </li>
@@ -316,6 +352,18 @@
     Dadalt Tech Toolkit
   </label>
   
+    <div class="md-nav__source">
+      <a href="https://github.com/Aledd75/dt-toolkit-docs" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Aledd75/dt-toolkit-docs
+  </div>
+</a>
+    </div>
+  
   <ul class="md-nav__list" data-md-scrollfix>
     
       
@@ -347,6 +395,91 @@
     
       
       
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Visão Geral
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Visão Geral
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about-toolkit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sistema
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
   
   
     
@@ -412,10 +545,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#requisitos-do-sistema" class="md-nav__link">
+  <a href="#requisitos-basicos" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Requisitos do Sistema
+        Requisitos básicos
       
     </span>
   </a>
@@ -423,10 +556,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#instalacao-e-execucao" class="md-nav__link">
+  <a href="#como-iniciar" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Instalação e Execução
+        Como iniciar
       
     </span>
   </a>
@@ -434,10 +567,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#o-ciclo-de-vida-da-primeira-execucao" class="md-nav__link">
+  <a href="#o-que-esperar-na-primeira-abertura" class="md-nav__link">
     <span class="md-ellipsis">
       
-        O Ciclo de Vida da Primeira Execução
+        O que esperar na primeira abertura
       
     </span>
   </a>
@@ -445,41 +578,24 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#o-dashboard-monitor-multiparametrico-do-pc" class="md-nav__link">
+  <a href="#boas-praticas" class="md-nav__link">
     <span class="md-ellipsis">
       
-        🩺 O Dashboard: Monitor Multiparamétrico do PC
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="🩺 O Dashboard: Monitor Multiparamétrico do PC">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-graficos-de-desempenho-em-tempo-real-o-eletrocardiograma" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        1. Gráficos de Desempenho em Tempo Real (O Eletrocardiograma)
+        Boas práticas
       
     </span>
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#2-logica-semaforica-de-saude" class="md-nav__link">
+      
+        <li class="md-nav__item">
+  <a href="#onde-continuar" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2. Lógica Semafórica de Saúde
+        Onde continuar
       
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -490,9 +606,99 @@
     </li>
   
 
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../licensing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Licenciamento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
     
       
       
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Módulos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
   
   
@@ -517,9 +723,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -544,9 +751,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -571,9 +779,99 @@
     </li>
   
 
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
     
       
       
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ajuda
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Ajuda
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Perguntas Frequentes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
   
   
   
@@ -587,6 +885,41 @@
     
   
     Solução de Problemas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../privacy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Privacidade
   
 
     
@@ -626,10 +959,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#requisitos-do-sistema" class="md-nav__link">
+  <a href="#requisitos-basicos" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Requisitos do Sistema
+        Requisitos básicos
       
     </span>
   </a>
@@ -637,10 +970,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#instalacao-e-execucao" class="md-nav__link">
+  <a href="#como-iniciar" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Instalação e Execução
+        Como iniciar
       
     </span>
   </a>
@@ -648,10 +981,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#o-ciclo-de-vida-da-primeira-execucao" class="md-nav__link">
+  <a href="#o-que-esperar-na-primeira-abertura" class="md-nav__link">
     <span class="md-ellipsis">
       
-        O Ciclo de Vida da Primeira Execução
+        O que esperar na primeira abertura
       
     </span>
   </a>
@@ -659,41 +992,24 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#o-dashboard-monitor-multiparametrico-do-pc" class="md-nav__link">
+  <a href="#boas-praticas" class="md-nav__link">
     <span class="md-ellipsis">
       
-        🩺 O Dashboard: Monitor Multiparamétrico do PC
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="🩺 O Dashboard: Monitor Multiparamétrico do PC">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-graficos-de-desempenho-em-tempo-real-o-eletrocardiograma" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        1. Gráficos de Desempenho em Tempo Real (O Eletrocardiograma)
+        Boas práticas
       
     </span>
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#2-logica-semaforica-de-saude" class="md-nav__link">
+      
+        <li class="md-nav__item">
+  <a href="#onde-continuar" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2. Lógica Semafórica de Saúde
+        Onde continuar
       
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -713,40 +1029,47 @@
                   
 
 
+  
+  
 
-<h1 id="guia-de-inicio-rapido">Guia de Início Rápido</h1>
-<h2 id="requisitos-do-sistema">Requisitos do Sistema</h2>
+
+<h1 id="primeiros-passos">Primeiros Passos</h1>
+<p>Esta página ajuda você a colocar o Dadalt Tech Toolkit para rodar com segurança e com o menor atrito possível.</p>
+<h2 id="requisitos-basicos">Requisitos básicos</h2>
 <ul>
-<li><strong>Sistema Operacional:</strong> Windows 10 ou Windows 11 (x64). Modo WinPE é suportado em módulos limitados.</li>
-<li><strong>Privilégios:</strong> É obrigatório executar como <strong>Administrador</strong>. O motor do <code>DTCore</code> audita a sessão; se não for admin, o programa solicitará elevação via UAC automaticamente.</li>
-<li><strong>Internet:</strong> Necessária para <strong>validação da licença/assinatura</strong> na abertura do programa, além do uso de módulos online como <code>DTDownloadWindows</code>, relatórios JSON do Winget e sincronização do status do módulo <code>DTNetworkRepair</code>.</li>
+<li>Windows 10 ou Windows 11, x64.</li>
+<li>Execução com privilégios de Administrador.</li>
+<li>Internet para validação de Trial, ativação e recursos que dependem de confirmação online.</li>
+<li>Uso portátil, sem instalação tradicional no sistema.</li>
 </ul>
-<h2 id="instalacao-e-execucao">Instalação e Execução</h2>
-<p>O DT Toolkit é <strong>100% portátil</strong> (Portable) e opera inteiramente na memória RAM (<code>Runspace</code>), não deixando rastros de instalação convencional no disco.</p>
+<h2 id="como-iniciar">Como iniciar</h2>
 <ol>
-<li>Baixe o arquivo empacotado <code>DTToolkit.exe</code> (direto do nosso repositório oficial).</li>
-<li>Clique com o botão direito no arquivo e selecione <strong>Executar como Administrador</strong>.</li>
+<li>Baixe o executável pela distribuição oficial.</li>
+<li>Execute o arquivo como Administrador.</li>
+<li>Se o Windows exibir alerta de segurança, confirme se o download veio da origem oficial antes de continuar.</li>
+<li>Ao abrir, confira o status de Trial ou ativação no próprio Toolkit.</li>
 </ol>
-<p>"SmartScreen e Antivírus"
-    Como o toolkit manipula configurações em Kernel e System32 (Registro de Serviços, Boot e Políticas GPO), o Windows SmartScreen ou antivírus de terceiros podem exibir um falso-positivo. Clique em "Mais informações" &gt; "Executar mesmo assim".</p>
-<h2 id="o-ciclo-de-vida-da-primeira-execucao">O Ciclo de Vida da Primeira Execução</h2>
-<p>Ao abrir, o sistema executa o <strong>Efeito Cascata</strong> no background para garantir um ambiente seguro:
-1. <strong>Autenticação SaaS:</strong> O <code>DTLicenseManager</code> valida a sua chave de acesso na nuvem (ou inicia o período Trial de 3 dias).
-2. <strong>Auditoria:</strong> Mapeia a máquina (<code>ComputerInfo</code>, WMI e SID do usuário ativo).
-3. <strong>Preparação:</strong> Injeta o plano de energia máximo (<code>powercfg -duplicatescheme</code>) para acelerar as manutenções.
-4. <strong>Renderização:</strong> A classe <code>DTGui</code> entra em ação, construindo a interface e acionando a leitura de hardware.</p>
-<h2 id="o-dashboard-monitor-multiparametrico-do-pc">🩺 O Dashboard: Monitor Multiparamétrico do PC</h2>
-<p>O carro-chefe do DT Toolkit é o seu Dashboard em tempo real. Assim como um médico conecta um paciente a um monitor para o primeiro diagnóstico, o nosso sistema lê o núcleo do Windows e fornece um raio-X instantâneo através de duas tecnologias visuais:</p>
-<h3 id="1-graficos-de-desempenho-em-tempo-real-o-eletrocardiograma">1. Gráficos de Desempenho em Tempo Real (O Eletrocardiograma)</h3>
-<p>Através do motor de renderização gráfica nativo do Windows, o painel desenha o histórico de estresse da máquina segundo a segundo. Você consegue visualizar fisicamente os picos de uso da <strong>CPU</strong> e o consumo da <strong>RAM</strong> em linhas dinâmicas, identificando gargalos e processos pesados no exato momento em que eles acontecem, sem precisar abrir o Gerenciador de Tarefas.</p>
-<h3 id="2-logica-semaforica-de-saude">2. Lógica Semafórica de Saúde</h3>
-<p>Aliado aos gráficos, o sistema traduz os números brutos em um indicativo de cores inteligente, avaliando a saúde geral da máquina:</p>
+<h2 id="o-que-esperar-na-primeira-abertura">O que esperar na primeira abertura</h2>
 <ul>
-<li>🟢 <strong>Verde (Saudável):</strong> Os recursos operam dentro da margem de segurança e o sistema está estável.</li>
-<li>🟡 <strong>Amarelo (Atenção):</strong> O uso de hardware ou armazenamento está elevado, indicando acúmulo de lixo eletrônico ou gargalos de performance.</li>
-<li>🔴 <strong>Vermelho (Crítico):</strong> O sistema está no limite extremo (ex: Disco C: lotado, CPU a 100% ou falha de rede). Exige intervenção técnica imediata.</li>
+<li>Verificação do estado de licença.</li>
+<li>Inicialização da interface principal.</li>
+<li>Disponibilização dos módulos de manutenção, diagnóstico e suporte.</li>
+<li>Exibição dos logs ou mensagens operacionais relevantes para a sessão.</li>
 </ul>
-<p>Toda essa leitura visual é feita através de "Túneis Expressos" (Via Rápida) em milissegundos, rodando de forma totalmente assíncrona. O técnico sabe exatamente por onde começar o reparo antes mesmo de dar o primeiro clique, com fluidez total na interface.</p>
+<h2 id="boas-praticas">Boas práticas</h2>
+<ul>
+<li>Mantenha o sistema de destino dentro dos requisitos de suporte do produto.</li>
+<li>Use o Toolkit em máquinas com autorização de atendimento.</li>
+<li>Consulte a área de licenciamento antes de repetir a ativação em um novo ambiente.</li>
+<li>Se algo parecer bloqueado, veja primeiro a <a href="../troubleshooting/">Solução de Problemas</a> e a <a href="../faq/">FAQ</a>.</li>
+</ul>
+<h2 id="onde-continuar">Onde continuar</h2>
+<ul>
+<li><a href="../about-toolkit/">Visão Geral do Sistema</a></li>
+<li><a href="../licensing/">Licenciamento, Trial e Ativação</a></li>
+<li><a href="../faq/">Perguntas Frequentes</a></li>
+<li><a href="../privacy/">Como protegemos seus dados</a></li>
+</ul>
 
 
 
@@ -766,12 +1089,6 @@
           
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
-        
-          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
-  Voltar para o topo
-</button>
         
       </main>
       
@@ -802,7 +1119,7 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.top"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "search.suggest", "search.highlight", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>

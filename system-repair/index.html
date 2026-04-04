@@ -6,24 +6,26 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Documentação Oficial e Manual de Operação do Sistema.">
+        <meta name="description" content="Documentação oficial do Dadalt Tech Toolkit para manutenção, diagnóstico, reparo e produtividade em Windows.">
       
       
         <meta name="author" content="Dadalt Tech">
       
       
+        <link rel="canonical" href="https://aledd75.github.io/dt-toolkit-docs/system-repair/">
+      
       
         <link rel="prev" href="../security-network/">
       
       
-        <link rel="next" href="../troubleshooting/">
+        <link rel="next" href="../faq/">
       
       
         
       
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.4">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
@@ -32,6 +34,9 @@
     
     
       <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -59,7 +64,14 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="cyan">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -68,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#sistema-reparo" class="md-skip">
+        <a href="#sistema-e-reparo" class="md-skip">
           Pular para conteúdo
         </a>
       
@@ -109,6 +121,32 @@
       </div>
     </div>
     
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="cyan"  aria-label="Mudar para modo claro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Mudar para modo claro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="cyan"  aria-label="Mudar para modo escuro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Mudar para modo escuro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
     
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
@@ -139,6 +177,8 @@
         </button>
       </nav>
       
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
@@ -154,6 +194,18 @@
 </div>
       
     
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Aledd75/dt-toolkit-docs" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Aledd75/dt-toolkit-docs
+  </div>
+</a>
+      </div>
     
   </nav>
   
@@ -193,55 +245,18 @@
   
   
   
-    <li class="md-tabs__item">
-      <a href="../getting-started/" class="md-tabs__link">
-        
-  
-  
     
-  
-  Primeiros Passos
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../management/" class="md-tabs__link">
-        
-  
-  
     
+      <li class="md-tabs__item">
+        <a href="../about-toolkit/" class="md-tabs__link">
+          
   
-  Gestão e Diagnóstico
+  
+  Visão Geral
 
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../security-network/" class="md-tabs__link">
-        
-  
-  
+        </a>
+      </li>
     
-  
-  Segurança e Rede
-
-      </a>
-    </li>
   
 
       
@@ -252,17 +267,38 @@
     
   
   
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="./" class="md-tabs__link">
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../management/" class="md-tabs__link">
+          
+  
+  
+  Módulos
+
+        </a>
+      </li>
+    
+  
+
+      
         
   
   
-    
   
-  Sistema e Reparo
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../faq/" class="md-tabs__link">
+          
+  
+  
+  Ajuda
 
-      </a>
-    </li>
+        </a>
+      </li>
+    
   
 
       
@@ -272,13 +308,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../troubleshooting/" class="md-tabs__link">
+      <a href="../privacy/" class="md-tabs__link">
         
   
   
     
   
-  Solução de Problemas
+  Privacidade
 
       </a>
     </li>
@@ -316,6 +352,18 @@
     Dadalt Tech Toolkit
   </label>
   
+    <div class="md-nav__source">
+      <a href="https://github.com/Aledd75/dt-toolkit-docs" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Aledd75/dt-toolkit-docs
+  </div>
+</a>
+    </div>
+  
   <ul class="md-nav__list" data-md-scrollfix>
     
       
@@ -351,6 +399,88 @@
   
   
   
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Visão Geral
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Visão Geral
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about-toolkit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sistema
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../getting-started/" class="md-nav__link">
         
@@ -371,9 +501,102 @@
     </li>
   
 
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../licensing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Licenciamento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
     
       
       
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Módulos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
   
   
@@ -398,9 +621,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -425,9 +649,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
     
@@ -493,10 +718,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#dtmaintenance-manutencao-e-limpeza" class="md-nav__link">
+  <a href="#manutencao-do-sistema" class="md-nav__link">
     <span class="md-ellipsis">
       
-        DTMaintenance (Manutenção e Limpeza)
+        Manutenção do sistema
       
     </span>
   </a>
@@ -504,10 +729,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#dtoptimizesystem-central-de-otimizacao" class="md-nav__link">
+  <a href="#otimizacao" class="md-nav__link">
     <span class="md-ellipsis">
       
-        DTOptimizeSystem (Central de Otimização)
+        Otimização
       
     </span>
   </a>
@@ -515,10 +740,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#dtservicerepair-a-troca-de-oleo-do-windows" class="md-nav__link">
+  <a href="#reparo-de-inicializacao" class="md-nav__link">
     <span class="md-ellipsis">
       
-        DTServiceRepair (A "Troca de Óleo" do Windows)
+        Reparo de inicialização
       
     </span>
   </a>
@@ -526,10 +751,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#dtbootrepairmanager-reparo-de-inicializacao" class="md-nav__link">
+  <a href="#limpeza-profunda" class="md-nav__link">
     <span class="md-ellipsis">
       
-        DTBootRepairManager (Reparo de Inicialização)
+        Limpeza profunda
       
     </span>
   </a>
@@ -537,10 +762,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#dtdeepcleaner-cacador-de-resquicios" class="md-nav__link">
+  <a href="#ferramentas-essenciais" class="md-nav__link">
     <span class="md-ellipsis">
       
-        DTDeepCleaner (Caçador de Resquícios)
+        Ferramentas essenciais
       
     </span>
   </a>
@@ -548,10 +773,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#dtdownloadwindows-dtfixwinget-ferramentas-essenciais" class="md-nav__link">
+  <a href="#resultado-esperado" class="md-nav__link">
     <span class="md-ellipsis">
       
-        DTDownloadWindows &amp; DTFixWinget (Ferramentas Essenciais)
+        Resultado esperado
       
     </span>
   </a>
@@ -565,9 +790,99 @@
     </li>
   
 
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
     
       
       
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ajuda
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Ajuda
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Perguntas Frequentes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
   
   
   
@@ -581,6 +896,41 @@
     
   
     Solução de Problemas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../privacy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Privacidade
   
 
     
@@ -620,10 +970,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#dtmaintenance-manutencao-e-limpeza" class="md-nav__link">
+  <a href="#manutencao-do-sistema" class="md-nav__link">
     <span class="md-ellipsis">
       
-        DTMaintenance (Manutenção e Limpeza)
+        Manutenção do sistema
       
     </span>
   </a>
@@ -631,10 +981,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#dtoptimizesystem-central-de-otimizacao" class="md-nav__link">
+  <a href="#otimizacao" class="md-nav__link">
     <span class="md-ellipsis">
       
-        DTOptimizeSystem (Central de Otimização)
+        Otimização
       
     </span>
   </a>
@@ -642,10 +992,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#dtservicerepair-a-troca-de-oleo-do-windows" class="md-nav__link">
+  <a href="#reparo-de-inicializacao" class="md-nav__link">
     <span class="md-ellipsis">
       
-        DTServiceRepair (A "Troca de Óleo" do Windows)
+        Reparo de inicialização
       
     </span>
   </a>
@@ -653,10 +1003,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#dtbootrepairmanager-reparo-de-inicializacao" class="md-nav__link">
+  <a href="#limpeza-profunda" class="md-nav__link">
     <span class="md-ellipsis">
       
-        DTBootRepairManager (Reparo de Inicialização)
+        Limpeza profunda
       
     </span>
   </a>
@@ -664,10 +1014,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#dtdeepcleaner-cacador-de-resquicios" class="md-nav__link">
+  <a href="#ferramentas-essenciais" class="md-nav__link">
     <span class="md-ellipsis">
       
-        DTDeepCleaner (Caçador de Resquícios)
+        Ferramentas essenciais
       
     </span>
   </a>
@@ -675,10 +1025,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#dtdownloadwindows-dtfixwinget-ferramentas-essenciais" class="md-nav__link">
+  <a href="#resultado-esperado" class="md-nav__link">
     <span class="md-ellipsis">
       
-        DTDownloadWindows &amp; DTFixWinget (Ferramentas Essenciais)
+        Resultado esperado
       
     </span>
   </a>
@@ -701,39 +1051,41 @@
                   
 
 
+  
+  
 
-<h1 id="sistema-reparo">Sistema &amp; Reparo</h1>
-<p>O painel de Sistema e Reparo concentra o arsenal de recuperação do sistema operacional. Cada classe aqui atua diretamente no núcleo do Windows.</p>
-<h2 id="dtmaintenance-manutencao-e-limpeza">DTMaintenance (Manutenção e Limpeza)</h2>
-<p>Subdividida em rotinas isoladas ou encadeadas:
-* <strong>Limpar Disco:</strong> Invoca a limpeza nativa (<code>cleanmgr</code>) e esvazia silenciosamente as pastas <code>SoftwareDistribution</code>, <code>%TEMP%</code> e <code>Prefetch</code>.
-* <strong>CHKDSK:</strong> O Scan Online lê a estrutura RAW em tempo real. O Offline programa o volume C: para reparo profundo no próximo boot.
-* <strong>DISM &amp; SFC:</strong> Usa os binários de imagem de implantação para restaurar a integridade da pasta <code>System32</code> corrompida.
-* <strong>Rotina Completa:</strong> Um motor inteligente que para os serviços do Windows Update, executa Limpeza &gt; CHKDSK &gt; DISM &gt; SFC sequencialmente, e reinicia a proteção.</p>
-<h2 id="dtoptimizesystem-central-de-otimizacao">DTOptimizeSystem (Central de Otimização)</h2>
-<p>O módulo mais complexo do sistema. Apresenta dezenas de <em>tweaks</em> seguros com botão de Desfazer (<code>UNDO</code>).
-* <strong>Energia:</strong> Força o plano "Ultimate Performance" e cria o <em>Wi-Fi Power Profile</em> (impedindo a placa de rede de dormir).
-* <strong>GPU &amp; Gráficos:</strong> Injeta o HAGS (Hardware Accelerated GPU Scheduling).
-* <strong>Privacidade:</strong> Desativa a Telemetria da Microsoft e as Experiências do Consumidor.</p>
-<h2 id="dtservicerepair-a-troca-de-oleo-do-windows">DTServiceRepair (A "Troca de Óleo" do Windows)</h2>
-<p>Restaura os valores de fábrica de <strong>24 serviços vitais</strong> do Windows (<code>mpssvc</code>, <code>wuauserv</code>, <code>WlanSvc</code>, <code>Audiosrv</code>, <code>Spooler</code>, etc.). Excelente para reviver PCs que pararam de dar som, conectar à rede ou imprimir devido a "otimizadores ruins" da internet.</p>
-<h2 id="dtbootrepairmanager-reparo-de-inicializacao">DTBootRepairManager (Reparo de Inicialização)</h2>
-<p>Interface para reconstruir blocos lógicos quebrados (Telas Azuis).
-* Reconstrói o <strong>BCD</strong> (Boot Configuration Data) em discos MBR ou GPT.
-* Restaura as partições ativas de recuperação (<code>WinRE</code>).</p>
-<h2 id="dtdeepcleaner-cacador-de-resquicios">DTDeepCleaner (Caçador de Resquícios)</h2>
-<p>Uma arma forense. Você digita uma palavra (Ex: "Avast") e o motor:
-1. Verifica se o app consta como instalado e bloqueia se positivo.
-2. Mata todos os processos associados.
-3. Exclui instâncias em <code>Get-Service</code> usando <code>sc.exe delete</code>.
-4. Varre pastas base (<code>ProgramData</code>, <code>AppData</code>) e muda o ACL (<code>takeown</code> / <code>icacls</code>) para destruir pastas teimosas à força.
-5. Limpa árvores no Registro (<code>HKCU</code> e <code>WOW6432Node</code>).
-6. Remove os atalhos.</p>
-<h2 id="dtdownloadwindows-dtfixwinget-ferramentas-essenciais">DTDownloadWindows &amp; DTFixWinget (Ferramentas Essenciais)</h2>
+
+<h1 id="sistema-e-reparo">Sistema e Reparo</h1>
+<p>Esta é a área dedicada à manutenção do Windows, à recuperação da inicialização e à aplicação de rotinas de correção que costumam consumir muito tempo quando feitas manualmente.</p>
+<h2 id="manutencao-do-sistema">Manutenção do sistema</h2>
+<p>O Toolkit organiza rotinas de reparo que ajudam a limpar e verificar o Windows com mais fluidez.</p>
 <ul>
-<li><strong>Download de ISOs:</strong> Módulo que conecta diretamente aos servidores da Microsoft para baixar ferramentas de criação de mídia do Windows 10 e 11, com <em>fallback</em> automático caso a rede falhe.</li>
-<li><strong>Reparar Winget:</strong> Reinstala os provedores e dependências do Gerenciador de Pacotes do Windows caso ele tenha sido corrompido no sistema do cliente.</li>
+<li>Limpeza de arquivos temporários e caches comuns.</li>
+<li>Verificação e reparo de componentes do sistema.</li>
+<li>Execução de sequências de manutenção de forma guiada.</li>
 </ul>
+<h2 id="otimizacao">Otimização</h2>
+<p>A área de otimização reúne ajustes que ajudam a manter a estação mais adequada ao uso técnico.</p>
+<ul>
+<li>Ajustes de desempenho e comportamento.</li>
+<li>Organização de rotinas para reduzir atrito no uso diário.</li>
+<li>Apoio a um ambiente mais estável para o atendimento.</li>
+</ul>
+<h2 id="reparo-de-inicializacao">Reparo de inicialização</h2>
+<p>Quando o problema está no boot, esta área concentra o fluxo de recuperação.</p>
+<ul>
+<li>Ações de reconstrução e correção da inicialização.</li>
+<li>Apoio ao ambiente de recuperação do Windows.</li>
+<li>Fluxo mais simples para cenários de máquina que não sobe corretamente.</li>
+</ul>
+<h2 id="limpeza-profunda">Limpeza profunda</h2>
+<p>Se um software deixou rastros no sistema, a área de limpeza profunda ajuda a identificar e remover resíduos comuns após a desinstalação.</p>
+<h2 id="ferramentas-essenciais">Ferramentas essenciais</h2>
+<p>Quando há necessidade de recuperar componentes importantes do ecossistema Windows, esta área também concentra tarefas relacionadas a downloads e correção de dependências essenciais.</p>
+<p><img alt="Sistema e reparo" src="../SistemaReparos.png" /></p>
+<p>A imagem mostra os blocos de manutenção e recuperação organizados para execução rápida, incluindo limpeza, reparo, otimização e correção de inicialização.</p>
+<h2 id="resultado-esperado">Resultado esperado</h2>
+<p>Uma bancada mais ágil, com menos tentativa e erro e mais clareza sobre qual etapa executar em seguida.</p>
 
 
 
@@ -753,12 +1105,6 @@
           
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
-        
-          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
-  Voltar para o topo
-</button>
         
       </main>
       
@@ -789,7 +1135,7 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.top"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "search.suggest", "search.highlight", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
